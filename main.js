@@ -41,7 +41,7 @@ submit.addEventListener("submit", (e) => {
 });
 
 btn.addEventListener("click", () => {
-  setTimeout(emptyInput, 3000);
+  setTimeout(emptyInput, 5000);
   function emptyInput() {
     inputs.forEach((input) => (input.value = ""));
     textarea.forEach((textarea) => (textarea.value = ""));
