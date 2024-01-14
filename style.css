@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #1a1a1d;
+  scroll-behavior: smooth;
+}
+
+.navbar .active {
+  color: yellow !important;
+}
+
+.navbar {
+  display: flex;
+  height: 60px;
+  background-color: #1a1a1d;
+}
+
+.nav-tit {
+  color: yellow;
+  font-weight: 600;
+}
+
+.nav-tit:hover {
+  color: yellow;
+}
+
+.nav-tit:focus {
+  color: yellow;
+}
+
+.btn-x {
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  display: flex;
+  background-color: transparent;
+}
+
+.resume a {
+  text-decoration: none;
+  border: 2px solid yellow;
+  padding: 3px 20px;
+  color: yellow;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.5s;
+  background-color: yellow;
+  color: black;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+}
+
+.btn-x:hover {
+  color: yellow;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: yellow !important;
+}
+
+.offcanvas {
+  background-color: #1a1a1d;
+}
+
+.offcanvas h5 {
+  color: yellow;
+  font-weight: 500;
+}
+
+.bx-menu {
+  color: white;
+}
+
+.bx-menu:hover {
+  color: yellow;
+}
+
+/*------------------------------*/
+
+.about {
+  padding-top: 60px;
+}
+
+.about p {
+  color: white;
+}
+
+.web-dev {
+  color: yellow;
+}
+
+.p1 {
+  font-weight: 600;
+}
+
+.p2 {
+  font-weight: 600;
+}
+
+.p3 {
+  font-weight: 500;
+}
+
+.about-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img img {
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+  border-radius: 50%;
+}
+
+.about-btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 2px solid yellow;
+  padding: 3px 20px;
+  color: yellow;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.5s;
+  background-color: yellow;
+  color: black;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+}
+
+/*------------------------------*/
+
+.skills-tit {
+  color: yellow;
+  font-weight: 600;
+}
+
+.skills-p {
+  color: white;
+  font-weight: 500;
+}
+
+.tech-skills {
+  border: 2px solid yellow;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 30px 10px;
+  justify-content: center;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+}
+
+.tech-skills p {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding: 3px 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.other-skills {
+  border: 2px solid yellow;
+  padding: 30px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+  justify-content: center;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+}
+
+.p-sub {
+  color: yellow;
+  font-weight: 500;
+}
+
+.bxl-html5 {
+  color: orangered;
+}
+
+.bxl-css3 {
+  color: blue;
+}
+
+.bxl-javascript {
+  color: yellow;
+}
+
+.bxl-bootstrap {
+  color: royalblue;
+}
+
+.bxl-react {
+  color: aqua;
+}
+
+.bxl-mongodb {
+  color: green;
+}
+
+.bxl-nodejs {
+  color: green;
+}
+
+.bxl-git {
+  color: orangered;
+}
+
+.bxl-github {
+  color: white;
+}
+
+.bxl-figma {
+  color: white;
+}
+
+.bxl-visual-studio {
+  color: blue;
+}
+
+.bx-pie-chart-alt {
+  color: orangered;
+}
+
+.bxs-copyright {
+  color: blue;
+}
+
+.bxl-microsoft-teams {
+  color: green;
+}
+
+.other-skills p {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  color: white;
+  border: 1px solid white;
+  padding: 3px 20px;
+  border-radius: 10px;
+}
+
+/*------------------------------*/
+
+.projects .img-text {
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 40% 5%;
+  border-radius: 15px;
+}
+
+.card-pro a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 2px solid yellow;
+  padding: 3px 20px;
+  color: yellow;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.5s;
+  background-color: yellow;
+  color: black;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+}
+
+.pro-p {
+  font-weight: 500;
+  color: white;
+}
+
+.pro-tit {
+  color: yellow;
+  font-weight: 600;
+}
+
+.card {
+  background-color: #1a1a1d;
+  border: 2px solid yellow;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  font-weight: 700 !important;
+  color: white;
+}
+
+/*--------------------------------------------*/
+
+.contact-tit {
+  color: yellow;
+  font-weight: 600;
+}
+
+form input {
+  padding: 8px;
+  margin: 3px 0;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+form textarea {
+  margin: 3px 0 10px 0;
+  padding: 8px;
+  resize: none;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+form button {
+  padding: 6px;
+  border: none;
+  border: 2px solid yellow;
+  color: yellow;
+  font-weight: 600;
+  background-color: yellow;
+  border-radius: 3px;
+  color: black;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+}
+
+.form-send {
+  color: yellow;
+  font-weight: 600;
+}
+
+.contact-p {
+  color: white;
+}
+
+.contact .con {
+  color: yellow;
+  font-weight: 500;
+}
+
+.bx-map {
+  color: black;
+  border: 2px solid yellow;
+  border-radius: 30px;
+  padding: 5px;
+  background-color: yellow;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+}
+
+.bx-phone {
+  color: black;
+  border: 2px solid yellow;
+  border-radius: 30px;
+  padding: 5px;
+  background-color: yellow;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+}
+
+.bxl-gmail {
+  color: black;
+  background-color: yellow;
+  border: 2px solid yellow;
+  border-radius: 30px;
+  padding: 5px;
+  box-shadow: rgba(255, 255, 0, 0.308) 0px 7px 29px 0px;
+}
+
+.contact .con-p {
+  color: white;
+}
